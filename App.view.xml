@@ -1,0 +1,21 @@
+<mvc:View
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc"
+   controllerName="sap.ui.demo.controller.App">
+
+   <Button text="Increment by 1" 
+   press=".onPressIncrement"/>
+
+   <Text id="counter" text="0"/>
+
+   <List
+      id="episodeOverview"
+      headerText="{/title}"
+      items="{/series}">
+      <items>
+         <StandardListItem
+            title="{title}"
+            description="{index}" />
+      </items>
+   </List>
+</mvc:View>
