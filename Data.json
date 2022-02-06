@@ -1,0 +1,23 @@
+{
+	"title" : "Favourite TV Shows",
+	"series": [
+		{
+			"title": "Raising Dion",
+			"index": "#1",
+			"published": "Feb 01 2022",
+			"length": "17"
+		},
+		{
+			"title": "The Witcher",
+			"index": "#2",
+			"published": "Dec 30 2021",
+			"length": "16"
+		},
+		{
+			"title": "Resident Alien",
+			"index": "#3",
+			"published": "",
+			"length": "20"
+		}
+	]
+}
